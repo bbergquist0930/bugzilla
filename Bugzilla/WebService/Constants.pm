@@ -309,6 +309,7 @@ sub WS_DISPATCH {
         'Bugzilla'         => 'Bugzilla::WebService::Bugzilla',
         'Bug'              => 'Bugzilla::WebService::Bug',
         'Classification'   => 'Bugzilla::WebService::Classification',
+        'Classifications'  => 'Bugzilla::WebService::Classifications',
         'Component'        => 'Bugzilla::WebService::Component',
         'FlagType'         => 'Bugzilla::WebService::FlagType',
         'Group'            => 'Bugzilla::WebService::Group',

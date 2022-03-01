@@ -99,7 +99,7 @@ sub html_quote {
     # |U+200e|Left-To-Right Mark        |0xe2 0x80 0x8e      |
     # |U+200f|Right-To-Left Mark        |0xe2 0x80 0x8f      |
     # --------------------------------------------------------
-    $var =~ tr/\x{202a}-\x{202e}//d;
+    #    $var =~ tr/\x{202a}-\x{202e}//d;
     return $var;
 }
 
